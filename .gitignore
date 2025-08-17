@@ -1,0 +1,25 @@
+# Entornos virtuales
+curso_pro_IA/
+.venv/
+venv/
+
+# Datos crudos y pesados (NO versionar datos originales)
+data/raw/*
+data/interim/*
+*.csv
+*.xlsx
+*.zip
+
+# Archivos de Jupyter y cachés
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Configuraciones locales y temporales
+.DS_Store
+.env
+*.log
+
+# Modelos y salidas pesadas
+models/*
+reports/figures/*
